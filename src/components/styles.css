@@ -1,0 +1,75 @@
+.task-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .task-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .task-info {
+    flex-grow: 1;
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+  }
+  
+  .task-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    margin-top: 10px;
+  }
+  
+  .task-summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .summary-table th,
+  .summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .summary-table th {
+    background-color: #f2f2f2;
+  }
+  
